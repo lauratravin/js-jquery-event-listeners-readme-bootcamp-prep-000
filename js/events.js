@@ -21,7 +21,7 @@ function submitIt(){
 function pressIt(){
   $('input').keydown(function(key){
        if $(key.which == 71){
-          alert(`G`);
+          alert('G');
        }
 
 
